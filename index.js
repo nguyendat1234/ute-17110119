@@ -1,5 +1,5 @@
-const keyPublishable = 'pk_test_hs4n6wX6Olzr6zllFqE32P8m00USs4v8po'; 
-const keySecret = 'sk_test_IfhHhC4OXFVXzduXn6kiMvW300eTsAF29v'; 
+const keyPublishable = 'pk_test_hs4n6wX6Olzr6zllFqE32P8m00USs4v8po';// nhập key của api lúc trên
+const keySecret = 'sk_test_IfhHhC4OXFVXzduXn6kiMvW300eTsAF29v'; // nhập key của api lúc trên
  
 const app = require("express")();
 const stripe = require("stripe")(keySecret);
